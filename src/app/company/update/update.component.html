@@ -1,0 +1,23 @@
+
+    <div>
+        <h2>Edit a contact</h2>
+        <form [formGroup]="companyUpdateForm" (ngSubmit)="updateCompany()">
+            <div>
+            <label for="id">Id</label>
+            <input type="number" id="id" formControlName="id" />
+          </div>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" formControlName="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" formControlName="email" />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" formControlName="phone" />
+          </div>
+          <button type="submit" [disabled]="!companyUpdateForm.valid">Edit Company</button>
+        </form>
+      </div>
