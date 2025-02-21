@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "game-library": {
+    "java-cloud-azure-day-1-frontend": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -41,7 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/game-library",
+            "outputPath": "dist/java-cloud-azure-day-1-frontend",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "game-library:build:production"
+              "buildTarget": "java-cloud-azure-day-1-frorntend:build:production"
             },
             "development": {
-              "buildTarget": "game-library:build:development"
+              "buildTarget": "java-cloud-azure-day-1-frorntend:build:development"
             }
           },
           "defaultConfiguration": "development"
