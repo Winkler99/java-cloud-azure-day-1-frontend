@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "java-cloud-azure-day-1-frorntend:build:production"
+              "buildTarget": "java-cloud-azure-day-1-frontend:build:production"
             },
             "development": {
-              "buildTarget": "java-cloud-azure-day-1-frorntend:build:development"
+              "buildTarget": "java-cloud-azure-day-1-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
